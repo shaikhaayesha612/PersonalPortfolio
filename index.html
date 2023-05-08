@@ -1,0 +1,224 @@
+<html>
+    <head>
+        <title> Personal Portfolio Website </title>
+        <link rel="stylesheet" href="dist/css/bootstrap.css"/>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    <!--CSS For icons from Boxicons-->
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">  
+                 <!--Write this meta line exact same line every time to make page responsive-->       
+        <script src="index.js"></script>
+       <!-- <script src="dist/js/bootstrap.min.js"></script>	 for functionality purpose-->
+		
+    </head>
+    <body>
+        <nav class="navbar">    
+            <label class="logo"> Portfolio </label>
+            <input type="checkbox" id="check" name="" value="">
+            <label for="check" id="checkbtn"> <i class="fa fa-bars"></i> </label>
+            <ul class="links" id="menuList">
+                <li> <i class='bx bx-home active'></i><a href="index.html">Home</a> </li>
+                <li> <i class='bx bxs-user'></i><a href="about.html">About</a> </li>
+                <li> <i class='bx bx-list-ul'></i><a href="skill.html">Skills & Achievements</a> </li>
+                <li> <i class='bx bxs-briefcase'></i><a href="portfolio.html">Portfolio</a> </li>
+                <li> <i class='bx bxs-contact'></i><a href="contact.html">Contact</a> </li>
+            </ul>
+        </nav>
+        
+        <section class="home">
+            <div class="home-content">
+                <h4> Hello, It's Me </h4>
+                <h1> Aayesha Shaikh </h1> 
+                <h3> And I'm a <span> Frontend Developer</span> </h3>
+                
+                <!-- 
+                    Open Boxicon in Google. 
+                    In Usage-> Usage as a Font->Copy the link to import the CSS and paste it the head section
+                    Then search the social media icon & copy respective icon code from font and paste here
+                -->
+                <div class="social-media">
+                    <a href=""><i class='bx bxl-instagram'></i></a>
+                    <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                    <a href=""><i class='bx bxl-whatsapp'></i></a>
+                    <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                </div>
+                    
+                <a href="Aayesha Shaikh- Frontend Developer_CV.pdf" download class="btncv"> Download CV </a>    
+            </div>
+            
+            <div class="home-img">
+                <img src="pic.png" />
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-content">
+                <h1> About Me </h1>
+                <p>
+                    I, Aayesha Majjid Shaikh, have qualified M.E.(Electronics Engineering) in 2021
+                    I have qualified all my academics with First Class with Destiction; 
+                    from KBP College Of Engineering, Satara.
+                </p>
+                <p>
+                    I am passionate for all new things technology and design.
+                    I am Frontend Developer & I have a passion to design and develop a clean code for projects.
+                </p>
+            <div>
+                <a class="academics-heading" href="#"> Academics </a>
+                <div class="academics">
+                    <div>
+                        <h6> Masters of Engineering</h6>
+                        <p> Electronics Engineering <br/>
+                            KBP COE, Satara <br/>
+                            2021, 72%</p>
+                    </div>
+                    <div>
+                        <h6> Bachelor of Engineering</h6>
+                        <p> Electronics Engineering <br/>
+                            KBP COE, Satara <br/>
+                            2016, 74%</p>
+                    </div>
+                    <div>
+                        <h6> Higher Secondary Education</h6>
+                        <p> YCIS, Satara <br/> 
+                            Maharashtra <br/> 
+                            2012, 84%</p>
+                    </div>
+                    <div>
+                        <h6> SSC</h6>
+                        <p> Maharaja Sayajirao 
+                            Vidyalaya Satara <br/>
+                            2010, 97% </p>
+                    </div>
+                </div>             
+        </section>
+        <section>
+            <div class="container">
+                <div class="row skillset"> 
+                    <h6 class="academics-heading mb-5"> Skills, Achievements, Certification & Academic Projects</h1>
+                    <div class="col-lg-2 skills">
+                        <a class="skills-headings" href="#"> Skills </a>
+                        <p> HTML </p>
+                        <p> CSS </p>
+                        <p> Bootstrap </p>
+                        <p> JavaScript </p>
+                        <p> Reactjs </p>
+                        <p> React Material UI</p>
+                        <p> Git & GitHub </p>
+                        <p> Java </p>
+                        <p> Android Programming </p>
+                        <p> C </p>
+                        <p> Web Designing </p>
+                        <p> Design Thinking </p>
+                        <p> Problem Solving </p>
+                        <p> Time Management </p>
+                        <p> Team Work </p>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-4 mt-5 skills">
+                        <a class="skills-headings" href="#"> Achievements & Certifications </a>
+                        <p> 1. Winner in the Texas Analog Maker Competition 2015 </p>
+                        <p> 2. Finalist of ‘All India Technology & Innovation contest, Techno-Champ2015’
+                            organised by John Deere Technology Centre India
+                        </p>
+                        <a class="skills-headings" href="#"> Certifications </a>
+                        <p class="top-margin"> Web Development </p>
+                        <p> Android Programming </p>
+                        <p> Java Programming Language </p>
+                        <p> C Programming Language </p>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-4 mt-5 skills">
+                        <a class="skills-headings" href="#"> Academic Projects </a>
+                        <p> 1. Moving Robot and Image Processing based Analysis for Tomato Growth Measurement</p>
+                        <p> 2. Wireless VGA Connectivity for LCD Projector </p>
+                        <p> 3. Bidirectional Visitor Counter with Auto-Room-Light </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <h1> Latest Projects </h1>
+            <div class="projects">
+                <div> 
+                    <span> <img src="html1.png" width="30" height="30"/> </span>
+                    <span> <img src="css.png" width="30" height="30"/> </span>
+                    <span> <img src="bootstrap.png" width="30" height="30"/> </span>
+                    <span> <img src="js.png" width="30" height="30"/> </span>
+                    <span> <img src="react.png" width="30" height="30"/> </span>
+                    <p> Shopping App Using JavaScript & Reactjs </p>
+                </div>
+                <div>
+                    <span> <img src="html1.png" width="30" height="30"/> </span>
+                    <span> <img src="css.png" width="30" height="30"/> </span>
+                    <span> <img src="bootstrap.png" width="30" height="30"/> </span>
+                    <span> <img src="js.png" width="30" height="30"/> </span>
+                    <span> <img src="react.png" width="30" height="30"/> </span>
+                    <p> Billing Software for Sales, Education, Small-Large Business </p>
+                </div>
+                <div> 
+                    <span> <img src="html1.png" width="30" height="30"/> </span>
+                    <span> <img src="css.png" width="30" height="30"/> </span>
+                    <span> <img src="bootstrap.png" width="30" height="30"/> </span>
+                    <span> <img src="js.png" width="30" height="30"/> </span>
+                    <p> Responsive Personal Portfolio  </p>
+                </div>
+                <div> 
+                    <span> <img src="html1.png" width="30" height="30"/> </span>
+                    <span> <img src="css.png" width="30" height="30"/> </span>
+                    <span> <img src="js.png" width="30" height="30"/> </span>
+                    <p> Zomato Clone Logic Using JavaScript Promises  </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row contact">
+                    <div class="col-lg-4 contactme">
+                        <h1 class="mt-5 mb-4"> Contact Me </h1>
+                        <p> <i class='bx bxl-gmail contact-icon'></i> shaikhaayesha612@gmail.com</p>
+                        <p> <i class='bx bx-phone-call contact-icon'></i> +91-7387397005 </p>
+                        <div class="social-media1">
+                            <a href=""><i class='bx bxl-instagram'></i></a>
+                            <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                            <a href=""><i class='bx bxl-whatsapp'></i></a>
+                            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                        </div>
+                        <a href="#" class="btn1"> Download CV </a>
+                    </div>
+                    <div class="col-lg-6 mt-5">
+                        <table class="table table-bordered mt-5 contact-tbl">
+                            <tr>
+                                <td> <input type="text" size="60" placeholder="Your Name" class="form-control form1"/> </td> 
+                            </tr>
+                            <tr>
+                                <td> <input type="email" size="60" placeholder="Your Email Id"class="form-control form1"/> </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea rows="8" cols="62" placeholder="Your Message" class="form-control form1"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <button class="btn2"> Send Message </button>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-lg-2 mt-5">
+                        <p class="text-end mt-5">
+                            <p class="text-dark mt-5 mb-5 p1">.</p>
+                            <p class="text-dark mt-5 mb-5 p1">.</p>
+                            <p class="text-dark mt-5 mb-5 p1">.</p>
+                            <p class="text-dark mt-5 mb-5 p1">.</p>
+                            <button onclick="topFunction()" id="myBtn" class="text-white">
+                                 <i class='bx bxs-home'></i> 
+                            </button>
+                            <p class="mb-5 back-home"> Back to Home </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    </body>
+</html>
